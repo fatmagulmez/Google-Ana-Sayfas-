@@ -1,0 +1,198 @@
+body{
+    margin: 0px auto;
+}
+
+#secenek {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 12px;
+    margin-top: 14px;
+  
+}
+
+#secenek a{
+    color: rgba(0, 0, 0,0.87);
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    line-height: 24px;
+    margin-right: 20px;
+    fill: currentColor;
+    
+}
+
+#secenek a:hover{
+    text-decoration: underline;
+}
+
+.foto{
+    background-size: 32px 32px;
+    border: 0;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    width: 32px;
+    height: 32px;
+    
+
+}
+.nokta a{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    background-position: -63px -29px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+
+}
+
+.orta{
+    margin-top: 90px;
+}
+
+#logo{
+    text-align: center;
+}
+
+.arama{
+    width: 480px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
+}
+
+.s-input{
+    background-color: transparent;
+    flex: 1px;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    color: rgba(0,0,0,0,87);
+    font-size: 16px;
+    margin-top: 25px;
+    height: 34px;
+    padding: 5px 8px 0 20px;
+    padding-left: 12px;
+    border-radius: 25px;
+    width: 100%;
+    outline: none;
+}
+
+.s-input:hover{
+    box-shadow: 1px 1px 5px grey;
+}
+
+
+
+.search-img span{
+     color: #9aa0a6;
+     height: 20px;
+     width: 20px;
+     margin-top: 0px;
+     display: inline-block;
+     fill: currentColor;
+     line-height: 24px;
+     position: absolute;
+     top: 12px;
+     left: 15px;
+        
+}
+
+.vs-icon span{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: -10px;
+
+}
+.vs-icon:hover{
+    opacity: 0.8;
+}
+
+.keyboard-icon span{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 12px;
+    right: 16px;
+}
+.keyboard-icon:hover{
+    opacity: 0.8;
+}
+.buttons{
+    display: block;
+    text-align: center;
+}
+
+.button{
+    background-color: #f8f9fa;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial;
+    font-size: 14px;
+    margin: 18px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+.button:hover{
+    border: 1px solid #aaa;
+}
+
+footer{
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 110px;
+
+}
+
+h4{
+    color: #70757a;
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 200;
+    padding-left: 29px;
+    border: 1px solid #eee;
+}
+
+a{
+    color: #5f6368;
+    display: inline-block;
+    padding: 12px 11px;
+    font-size: 14px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.altbilgi{
+    border-top: 1px solid #ddd;
+    display: flex;
+}
+
+.altbilgi1{
+    padding-left: 18px;
+    flex: 1;
+
+}
+
+.altbilgi2{
+    padding-right: 18px;
+}
